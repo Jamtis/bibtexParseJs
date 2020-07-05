@@ -178,8 +178,7 @@
                 else if (this.months.indexOf(k.toLowerCase()) >= 0)
                     return k.toLowerCase();
                 else
-                    throw "Value expected: single_value" + this.input.substring(start) + ' for key: ' + k;
-
+                    console.warn("Value expected: single_value " + this.input.substring(start) + ' for key: ' + k);
             };
         };
 
